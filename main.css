@@ -1,0 +1,77 @@
+body {
+  font-family: 'Permanent Marker', cursive;
+  color: blue;
+}
+
+#main{
+  background-image: url("https://www.tops-products.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/5/25-404R_Open.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 10px;
+  margin: auto;
+  width: 750px;
+  height: 960px;
+  border-style: solid;
+  border-color: white;
+}
+
+#head{
+  text-align: center;
+  margin-top: 90px;
+}
+
+#body{
+  margin-left: 120px;
+  max-height: 784.5px;
+}
+
+#addBar{
+  margin-left: 20px;
+  font-size: 12pt;
+}
+
+#inItemText{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 12pt;
+  color: blue;
+  width: 475px;
+  height: 20px;
+  background: none;
+  margin-bottom: 3px;
+  border: none;
+}
+
+#addBtn{
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  background: none;
+  border: none;
+}
+
+#addBtn:hover{
+  color: purple;
+}
+
+.checkBox{
+	-webkit-appearance: none;
+	background-color: blue;
+	border: 1px solid #cacece;
+	padding: 5px;
+	border-radius: 50px;
+  margin-right: 5px;
+}
+
+.checkBox:hover{
+  background-color: red;
+}
+
+.checkBox:checked{
+  background-color: red;
+}
+
+.delBtn{
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  background: none;
+  border: none;
+}
